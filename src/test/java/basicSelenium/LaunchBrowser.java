@@ -20,11 +20,10 @@ public class LaunchBrowser {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-		//driver.findElement(By.xpath("//*[@id=\"facebook\"]/body/div[4]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div")).click();//decline cookies
+		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		//Decline cookies		
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"facebook\"]/body/div[4]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]/div[2]/div"))).click();
-	
-	
 	
 	
 	
