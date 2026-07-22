@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Example_Locators1 {
+public class Locators_Example1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
