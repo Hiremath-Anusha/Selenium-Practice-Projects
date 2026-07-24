@@ -1,3 +1,5 @@
+//List all the items from Drop Down list
+
 package basicSelenium;
 
 import java.time.Duration;

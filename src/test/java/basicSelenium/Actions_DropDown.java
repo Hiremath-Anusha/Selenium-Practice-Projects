@@ -1,3 +1,5 @@
+//Different selection methods from dropdown list
+
 package basicSelenium;
 
 import java.time.Duration;
